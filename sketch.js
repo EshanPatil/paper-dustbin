@@ -55,10 +55,10 @@ function draw() {
 	
 	imageMode(CENTER);
 		//use image() command to add paper image to the ball
-image(ball, ball.position.x,ball.position.y,radius,radius);
+image(paperImg, ball.position.x,ball.position.y,radius,radius);
 
 	// use image() command to add dustbin image in the canvas.
-	image(groundObj, 1185, 570, 200,200);
+	image(dustbinImg, 1185, 570, 200,200);
 	
 ball.display()
 }
